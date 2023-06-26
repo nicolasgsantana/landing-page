@@ -133,3 +133,31 @@ p.author {
     text-align: right;
     font-weight: 600;
 }
+
+section.call-to-action {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffe6a7
+}
+
+div.call-to-action {
+    background-color: #6f1d1b;
+    padding: 8px;
+    width: 70%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.call-to-action .btn {
+    border: 2px solid #ffe6a7;
+}
+
+.call-to-action .title {
+    font-weight: bold;
+    font-size: 24px;
+}
