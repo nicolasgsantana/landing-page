@@ -80,3 +80,33 @@ section.hero p {
     padding: 8px 16px;
     border-radius: 8px;
 }
+
+section.drinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #432818;
+}
+
+section.drinks h2{
+    font-size: 36px;
+}
+
+section.drinks img {
+    height: 250px;
+    background-color: #99582a;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+section.drinks ul {
+    display: flex;
+    gap: 16px;
+}
+
+section.drinks p {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin: 16px;
+}
