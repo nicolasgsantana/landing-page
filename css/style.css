@@ -63,6 +63,7 @@ section.hero {
 section.hero img {
     height: 400px;
     width: auto;
+    border-radius: 16px;
 }
 
 section.hero h1 {
